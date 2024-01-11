@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Task>
  */
-class TestkFactory extends Factory
+class TeskFactory extends Factory
 {
     /**
      * Define the model's default state.
