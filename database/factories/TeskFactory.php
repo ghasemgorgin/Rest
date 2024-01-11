@@ -2,6 +2,7 @@
 
 namespace Database\Factories;
 
+use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -19,6 +20,8 @@ class TeskFactory extends Factory
         return [
             'title'=> $this->faker->sentence(),
             'is done'=> false,
+            'creator_id'=>User::factory(),
+            
         ];
     }
 }
