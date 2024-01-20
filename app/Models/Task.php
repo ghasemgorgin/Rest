@@ -32,6 +32,7 @@ class Task extends Model
     {
         static::addGlobalScope('creator',function (Builder $builder){
             $builder->where('creator_id',Auth::id());
+            
         });
 
 
